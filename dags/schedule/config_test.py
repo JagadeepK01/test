@@ -15,7 +15,7 @@ args = {
 }
 
 
-with open("/usr/local/airflow/dags/schedule/config_test.py", 'r') as f:
+with open("/opt/bitnami/airflow/dags/schedule/config_test.py", 'r') as f:
     file_data=f.read()
     print(file_data)
 
